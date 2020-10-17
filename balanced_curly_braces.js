@@ -1,7 +1,7 @@
 //Print well formed combinations of N{}. 
 
 //#Approach 1 - Not Working
-//Sir, this is how I tried to first time. But somewhere the call stack size is getting exceeded
+//This is how I tried to first time. But somewhere the call stack size is getting exceeded
 let arr = [];
 const generateCombinations1 = (str,n,left,right) =>{
   if(right==n){

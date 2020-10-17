@@ -1,9 +1,11 @@
 //Find if any subset in an array which adds to a given target t - Recursion
 
-/*Sir, I wasn't able to solve this myself, so I looked up the algo on Geeks for Geeks and basically this solution is from there.
-The other Algo is of DP, which I could understand but wanted to try the recursion approach first.
+/*I wasn't able to solve this myself, so I looked up the algo on Geeks for Geeks and basically this solution is from there.
+I could see DP oriented approach as well, which I could understand but wanted to try the recursion approach first.
+
 For some reason, I'm not able to maintain an updated array, which stores the elements traversed till now. 
-That array should be passed as a parameter recursively and it updates itself. When Target is found to be zero, that array should be returned.
+That array should be passed as a parameter recursively and it updates itself. 
+When Target is found to be zero, that array should be returned.
 */
 
 function findSubset(arr, n, target) {
